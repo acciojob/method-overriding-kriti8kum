@@ -1,11 +1,11 @@
 package com.driver;
 import java.util.*;
-public class Main {
+ class A {
   String meth(){
     return "Invoking method from class A";
 }
 }
-class B extends Main{
+class B extends A{
   @Override 
   String meth(){
     return "Method is overridden Extended class B";
